@@ -4,7 +4,6 @@ import "./Users.css"
 
 const Users = () => {
       const users = useLoaderData()
-      console.log(users);
       return (
             <div>
                   <h3>User list Header : {users.length}</h3>
